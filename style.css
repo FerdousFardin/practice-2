@@ -13,10 +13,10 @@ body{
 }
 
 .nav-items{
-    background-color:rgba(183, 76, 76, 0.42);
+    background-color:#b74c4c6b;
     display: flex;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0 5rem;
 }
 .heading{
     font-family:'Pattaya Regular';
@@ -37,4 +37,77 @@ body{
     margin-right: 2.5rem;
     font-size: 1rem;
     font-weight: 700;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding:7rem;
+    background: #B05555A1;
+}
+.img-fluid{
+    height: 25rem;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10rem;
+}
+.hero-heading{
+    color: white;
+    letter-spacing: .245rem;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.hero-text p{
+    letter-spacing: 0.2rem;
+    color: white;
+    text-align: center;
+}
+.btn-container{
+    margin: 1.5rem 0;
+   transition: transform 250ms ease-in-out ;
+}
+.btn{
+    color: rgba(0, 0, 0, 0.57);
+    letter-spacing: .245rem;
+    text-decoration: none;
+    padding: 1rem  3.5rem;
+    background-color: rgba(255, 255, 255, 0.49);
+    transition: border 450ms linear ;
+    
+}
+.btn:hover{
+    border: .5rem solid #b74c4c33;
+    border-radius: .5rem; 
+}
+.btn-container:hover{
+    transform: scale(1.01);
+}
+.logo{
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 1rem;
+}
+.logo i{
+    margin: 0 .7rem;
+}
+.mi-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 3.125rem 3.125rem 1rem;
+}
+.mi-1-img{
+    margin-right: 3.125rem;
+}
+.mi-1-img img{
+    width: 22rem;
+    border: 2.5rem solid #B74C4C59;
+}
+
+.mi-1-heading{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: .2rem;
+    font-size: 1.5rem;
 }
