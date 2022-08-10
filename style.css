@@ -76,14 +76,15 @@ body{
     padding: 1rem  3.5rem;
     background-color: rgba(255, 255, 255, 0.49);
     transition: border 450ms linear ;
+    border-radius: .5rem;
+    transition: border-bottom 250ms linear;
     
 }
 .btn:hover{
-    border: .5rem solid #b74c4c33;
-    border-radius: .5rem; 
+    border-bottom: .5rem solid #aaa0a033;
 }
 .btn-container:hover{
-    transform: scale(1.01);
+    transform: translateY(-.3rem);
 }
 .logo{
     color: rgba(0, 0, 0, 0.6);
@@ -110,4 +111,14 @@ body{
     justify-content: space-between;
     letter-spacing: .2rem;
     font-size: 1.5rem;
+}
+.marked{
+    background-color: rgba(192, 105, 77, 0.47);
+    border-radius: 0.6rem;
+    color: #fff;
+    padding: 0.6rem 1.25rem ;
+}
+.mi-1-text p{
+    letter-spacing: 0.1245rem;
+    line-height: 1.5rem;
 }
